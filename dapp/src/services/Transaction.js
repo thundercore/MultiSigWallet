@@ -334,6 +334,16 @@
                 data.etherscan = "https://rinkeby.etherscan.io";
                 data.walletFactoryAddress = txDefault.walletFactoryAddresses["rinkeby"].address;
               }
+              else if (block && block.hash == "0xfb3c2d5d6a223d4e0d712408cc90c31604d7781d9518698301c82be66b81a7e0") {
+                data.chain = "Thundercore";
+                data.etherscan = "https://viewblock.io/thundercore";
+                data.walletFactoryAddress = txDefault.walletFactoryAddresses["privatenet"].address;
+              }
+              else if (block && block.hash == "0xaae9c18dafff430713a7db83c07f5f5f4e206c42b603d15324a9772eb6f29dbb") {
+                data.chain = "TT Testnet";
+                data.etherscan = "https://scan-testnet.thundercore.com";
+                data.walletFactoryAddress = txDefault.walletFactoryAddresses["privatenet"].address;
+              }
               else {
                 data.chain = "privatenet";
                 data.etherscan = "https://testnet.etherscan.io";
