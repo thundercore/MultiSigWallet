@@ -109,7 +109,7 @@
     "nugget": "2.0.1",
     "phantomjs-polyfill-object-assign": "0.0.2",
     "scrypt": "6.0.3",
-    "terser": "^3.16.1"
+    "terser": "^4.8.1"
   },
   "build": {
     "appId": "pm.gnosis.wallet",
